@@ -15,7 +15,7 @@
     },
     "scripts": {
         "post-create-project-cmd": [
-           "envdev env/init"
+           "./envdev env/init"
         ]
     },
     "config": {
