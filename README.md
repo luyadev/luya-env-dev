@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. Create project into your workspace `composer create-project luya/luya-env-dev:^1.0@dev`
+1. Create project into your workspace `composer create-project luyadev/luya-env-dev:^1.0@dev`
   a. When asked `Do you want to remove the existing VCS (.git, .svn..) history?` - answer with `Y`, `Yes`.
 2. Run init command `./envdev env/init`
 2. Rename `env.php.dist` to `env.php` and modify your *Database connection component* to match your local env settings.
