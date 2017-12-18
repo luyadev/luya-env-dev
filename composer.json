@@ -13,11 +13,6 @@
             "luya\\cms\\" : "repos/luya-module-cms/src"
         }
     },
-    "scripts": {
-        "post-create-project-cmd": [
-           "./envdev env/init"
-        ]
-    },
     "config": {
         "fxp-asset" : {
             "pattern-skip-version": "(-build|-patch)",

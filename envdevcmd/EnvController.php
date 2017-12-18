@@ -16,11 +16,14 @@ class EnvController extends BaseCommand
     public function actionInit()
     {
         $wrapper = new GitWrapper();
-        $username = $this->prompt('Whats your username?');
-        $this->saveConfig('username', $username);
+        $username = $this->getConfig('username');
+       
+        if (!$username) {
+            $username = $this->prompt('Whats your username?');
+            $this->saveConfig('username', $username);
+        }
         
         foreach ($this->repos as $repo) {
-            
             $newRepoHome = 'repos' . DIRECTORY_SEPARATOR . $repo;
             if (file_exists($newRepoHome . DIRECTORY_SEPARATOR . '.git')) {
                 $this->outputSuccess("repo: \"{$repo}\" already initalize.");
@@ -55,6 +58,13 @@ class EnvController extends BaseCommand
         
         foreach ($this->repos as $repo) {
             $wrapper->git('checkout master',  'repos' . DIRECTORY_SEPARATOR . $repo);
+            $this->outputInfo("{$repo}: checkout master ✔");
+            
+            $wrapper->git('git fetch upstream',  'repos' . DIRECTORY_SEPARATOR . $repo);
+            $this->outputInfo("{$repo}: fetch upstream ✔");
+            
+            $wrapper->git('git rebase upstream/master master',  'repos' . DIRECTORY_SEPARATOR . $repo);
+            $this->outputInfo("{$repo}: rebase master ✔");
         }
     }
 }
