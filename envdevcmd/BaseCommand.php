@@ -25,7 +25,7 @@ class BaseCommand extends Command
     {
         $config = $this->readConfig();
         
-        return isset($config[$key]) ? $config['key'] : false;
+        return isset($config[$key]) ? $config[$key] : false;
     }
     
     public function saveConfig($key, $value)
