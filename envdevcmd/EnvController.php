@@ -33,11 +33,16 @@ class EnvController extends BaseCommand
                 $this->outputInfo("We could not find a fork {$username}/{$repo}! We can setup a read only instance, you can't change. If you want to work on this module you should clone it first!");
                 
                 if ($this->confirm("proceed with read only repo for {$repo}.")) {
-                    $git = $wrapper->cloneRepository('git://github.com/luyadev/'.$repo.'.git', $newRepoHome);
+                    $wrapper->cloneRepository('git://github.com/luyadev/'.$repo.'.git', $newRepoHome);
                     $this->outputSuccess("Repo {$repo} cloned into repos");
-                    $cmd = $wrapper->git('remote add upstream https://github.com/luyadev/'.$repo.'.git',  'repos' . DIRECTORY_SEPARATOR . $repo);
+                    $cmd = $wrapper->git('remote add upstream https://github.com/luyadev/'.$repo.'.git',  $newRepoHome);
                     $this->outputSuccess("add remote upstream.");
                 }
+            } else {
+                $wrapper->cloneRepository('git://github.com/'.$username.'/'.$repo.'.git', $newRepoHome);
+                $this->outputSuccess("Repo {$repo} cloned into repos");
+                $cmd = $wrapper->git('remote add upstream https://github.com/luyadev/'.$repo.'.git',  $newRepoHome);
+                $this->outputSuccess("add remote upstream.");
             }
         }
         
