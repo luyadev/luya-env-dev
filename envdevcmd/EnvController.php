@@ -23,6 +23,12 @@ class EnvController extends BaseCommand
             $this->saveConfig('username', $username);
         }
         
+        $cloneType = $this->getConfig('cloneType');
+        if (!$cloneType) {
+            $cloneType = $this->select('Are you connected via ssh or https?', ['ssh' => 'ssh', 'http' => 'http']);
+            $this->saveConfig('cloneType', $cloneType);
+        }
+        
         foreach ($this->repos as $repo) {
             $newRepoHome = 'repos' . DIRECTORY_SEPARATOR . $repo;
             if (file_exists($newRepoHome . DIRECTORY_SEPARATOR . '.git')) {
@@ -42,7 +48,10 @@ class EnvController extends BaseCommand
                     $this->outputSuccess("add remote upstream.");
                 }
             } else {
-                $wrapper->cloneRepository('git://github.com/'.$username.'/'.$repo.'.git', $newRepoHome);
+                
+                $typePrefix = ($cloneType == 'ssh') ? "git@github.com:{$username}/{$repo}.git" : "https://github.com/{$username}/{$repo}.git";
+                $this->outputInfo('clone ' . $typePrefix);
+                $wrapper->cloneRepository($typePrefix, $newRepoHome);
                 $this->outputSuccess("Repo {$repo} cloned into repos");
                 $cmd = $wrapper->git('remote add upstream https://github.com/luyadev/'.$repo.'.git',  $newRepoHome);
                 $this->outputSuccess("add remote upstream.");

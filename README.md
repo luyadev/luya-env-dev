@@ -14,8 +14,10 @@
 For all the FORKED repos (not the read only repos) you can now make changes directly in the `repos/` folder. Assuming you want to make a change in the luya-admin-module which you have forked to your account:
 
 1. Go into the luya-module-admin `cd /repos/luya-module-admin`.
-2. Create new branch and commit your changes `git branch my-fix` now make your changes, commit and push them to your fork.
-3. Create pull request from GitHub.
+2. Create new branch and commit your changes `git branch my-fix` go into branch `git checkout my-fix`.
+3. Make your changes and add them `git add .` and commit `git commit -m 'Added something ...'`.
+4. Push branch to your fork `git push origin my-fix`.
+5. Create pull request from GitHub.
 
 ## Find more infos
 
