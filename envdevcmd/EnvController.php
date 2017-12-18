@@ -20,11 +20,11 @@ class EnvController extends BaseCommand
 
 **CLONE REPOS**
 
-We have detected one or more repos which are not cloned to your account. Therefore you can push any changes to those repos and they are **READ ONLY**.
+We have detected one or more repos which are not forked to your account. You can only push changes to the forked repos, all others are **READ ONLY**.
 
-If you just want to work on a specific repo, make sure at least this repo is forked into your Github account.
+If you want to work on a specific repo, make sure that repo is forked to your Github account.
 
-You can also skip this command, clone the repos and re run this command again.
+You can also skip this command, fork the repos and rerun this command again.
 
 **FORK ME**
 EOT;
