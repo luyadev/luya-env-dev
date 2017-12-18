@@ -1,10 +1,21 @@
 # Dev Environment
 
-1. Create project into your workspace `composer create-project luya/luya-env-dev`
+## Installation
+
+1. Create project into your workspace `composer create-project luya/luya-env-dev:^1.0@dev`
+  a. When asked `Do you want to remove the existing VCS (.git, .svn..) history?` - answer with `Y`, `Yes`.
 2. Run init command `./envdev env/init`
 2. Rename `env.php.dist` to `env.php` and modify your *Database connection component* to match your local env settings.
 3. Execute commands `./luya migrate`, `./luya import`, `./luya admin/setup`.
 4. Access `public_html` on your webserver.
+
+## Changes
+
+For all the FORKED repos (not the read only repos) you can now make changes directly in the `repos/` folder. Assuming you want to make a change in the luya-admin-module which you have forked to your account:
+
+1. Go into the luya-module-admin `cd /repos/luya-module-admin`.
+2. Create new branch and commit your changes `git branch my-fix` now make your changes, commit and push them to your fork.
+3. Create pull request from GitHub.
 
 ## Find more infos
 

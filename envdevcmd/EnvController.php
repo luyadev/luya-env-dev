@@ -30,7 +30,7 @@ class EnvController extends BaseCommand
                 continue;
             }
             
-            $hasFork = (new Curl())->get('https://github.com/'.$username.'/'.$repo.'.git')->isSuccess();
+            $hasFork = (new Curl())->get('https://github.com/'.$username.'/'.$repo.'.git')->isRedirect(); // will redirect to github page with 301
             
             if (!$hasFork) {
                 $this->outputInfo("We could not find a fork {$username}/{$repo}! We can setup a read only instance, you can't change. If you want to work on this module you should clone it first!");
