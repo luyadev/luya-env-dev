@@ -1,5 +1,7 @@
 # Dev Environment
 
+> **before installing the env dev project, fork the repos you like to work with.**
+
 ## Installation
 
 1. Create project into your workspace `composer create-project luyadev/luya-env-dev:^1.0@dev`
