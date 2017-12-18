@@ -69,10 +69,10 @@ class EnvController extends BaseCommand
             $wrapper->git('checkout master',  'repos' . DIRECTORY_SEPARATOR . $repo);
             $this->outputInfo("{$repo}: checkout master ✔");
             
-            $wrapper->git('git fetch upstream',  'repos' . DIRECTORY_SEPARATOR . $repo);
+            $wrapper->git('fetch upstream',  'repos' . DIRECTORY_SEPARATOR . $repo);
             $this->outputInfo("{$repo}: fetch upstream ✔");
             
-            $wrapper->git('git rebase upstream/master master',  'repos' . DIRECTORY_SEPARATOR . $repo);
+            $wrapper->git('rebase upstream/master master',  'repos' . DIRECTORY_SEPARATOR . $repo);
             $this->outputInfo("{$repo}: rebase master ✔");
         }
     }
