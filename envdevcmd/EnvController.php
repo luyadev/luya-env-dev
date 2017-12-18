@@ -20,7 +20,7 @@ class EnvController extends BaseCommand
 
 **CLONE REPOS**
 
-We have detected one or more repos which are not forked to your account. You can only push changes to the forked repos, all others are **READ ONLY**.
+We've detected that you don't have all module repos forked to your account. You can only push changes to the forked repos, all others are **READ ONLY**.
 
 If you want to work on a specific repo, make sure that repo is forked to your Github account.
 
