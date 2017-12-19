@@ -21,6 +21,15 @@ For all the FORKED repos (not the read only repos) you can now make changes dire
 4. Push branch to your fork `git push origin my-fix`.
 5. Create pull request from GitHub.
 
+## Develop your own module or extensions (docs in progress)
+
+1. Go into the repo directory in your initializated luya-env-dev `cd /repos`.
+2. Git clone or git init your module or extension here.
+3. Create a `Module.php` file accordingly to the LUYA specifications.
+4. Adding your module via psr-4 binding to your `composer.json` at the autoload section from luya-env-dev.
+5. Run `composer dump-autoload` for luya-env-dev.
+6. Include your module in `configs/env.php`.
+
 ## Find more infos
 
 + [Installation instructions](https://luya.io/guide/install)
