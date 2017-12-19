@@ -3,6 +3,8 @@
     "description" : "LUYA Dev Env",
     "require" : {
         "luyadev/luya-core" : "~1.0.0",
+        "luyadev/luya-module-admin" : "~1.0.0",
+        "luyadev/luya-module-cms" : "~1.0.0",
         "cpliakas/git-wrapper": "~1.0"
     },
     "autoload" : {
