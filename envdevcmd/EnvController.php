@@ -38,6 +38,7 @@ EOT;
     {
         if ($this->_gitWrapper === null) {
             $this->_gitWrapper = new GitWrapper();
+            $this->_gitWrapper->setTimeout(300);
         }
         
         return $this->_gitWrapper;
