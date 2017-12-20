@@ -11,7 +11,7 @@
 3. Execute commands `./luya migrate`, `./luya import`, `./luya admin/setup`.
 4. Access `public_html` on your webserver.
 
-## Changes
+## Changes, collaboration and contribution
 
 For all the FORKED repos (not the read only repos) you can now make changes directly in the `repos/` folder. Assuming you want to make a change in the luya-admin-module which you have forked to your account:
 
@@ -20,6 +20,8 @@ For all the FORKED repos (not the read only repos) you can now make changes dire
 3. Make your changes and add them `git add .` and commit `git commit -m 'Added something ...'`.
 4. Push branch to your fork `git push origin my-fix`.
 5. Create pull request from GitHub.
+
+> Please do not forget to run `composer install` in der root directory of the module and `npm install` in the `/resources` directory of the module to download all needed dependencies.
 
 ## Develop your own module or extensions (docs in progress)
 
