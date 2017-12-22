@@ -27,14 +27,16 @@ For all the FORKED repos (not the read only repos) you can now make changes dire
 
 Please keep in mind that all modules and extensions are treated as independent projects, so do not forget to run in the **root directory of the module** `composer install` and probably `npm install` in the `/resources` directory of the module to download all needed dependencies.
 
-## Develop your own module or extensions (docs in progress)
+## Develop your own module or extensions 
 
-1. Go into the repo directory in your initializated luya-env-dev `cd /repos`.
+1. Go into the `repo` directory in your initializated luya-env-dev `cd /repos`.
 2. Git clone or git init your module or extension here.
 3. Create a `Module.php` file accordingly to the LUYA specifications.
 4. Adding your module via psr-4 binding to your `composer.json` at the autoload section from **luya-env-dev** root directory.
 5. Run `composer dump-autoload` for luya-env-dev.
 6. Include your module in `configs/env.php`.
+
+> If you would like to use the `@bower` alias inside your own module to include dependencies from `vendor/bower` keep in mind that dependecies need to be installed via composer inside your luya-env-dev root directory.
 
 ## Find more infos
 
