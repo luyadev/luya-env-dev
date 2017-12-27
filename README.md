@@ -8,7 +8,7 @@
   a. When asked `Do you want to remove the existing VCS (.git, .svn..) history?` - answer with `Y`, `Yes`.
 2. Run init command `./envdev env/init`
 2. Rename `env.php.dist` to `env.php` and modify your *Database connection component* to match your local env settings.
-3. Execute commands `./luya migrate`, `./luya import`, `./luya admin/setup`.
+3. Execute commands `./luya migrate`, `./luya import`, `./luya admin/setup`, `./luya health`.
 4. Access `public_html` on your webserver.
 
 ## Changes, collaboration and contribution
