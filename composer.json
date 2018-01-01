@@ -2,14 +2,13 @@
     "name" : "luyadev/luya-env-dev",
     "description" : "LUYA Dev Env",
     "require" : {
-        "luyadev/luya-core" : "~1.0.0",
+        "luyadev/luya" : "^1.0@dev",
         "luyadev/luya-module-admin" : "~1.0.0",
         "luyadev/luya-module-cms" : "~1.0.0",
         "cpliakas/git-wrapper": "~1.0"
     },
     "autoload" : {
         "psr-4" : {
-            "luya\\envdev\\" : "",
             "luya\\" : "repos/luya/core",
             "luya\\admin\\" : "repos/luya-module-admin/src",
             "luya\\cms\\" : "repos/luya-module-cms/src"
