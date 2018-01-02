@@ -494,12 +494,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya.git",
-                "reference": "35070443ae7cd38dce570485288ae2c2f1ec914c"
+                "reference": "cd4e862fc77d634011aa1c03d87fcbbbcf01c6f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya/zipball/35070443ae7cd38dce570485288ae2c2f1ec914c",
-                "reference": "35070443ae7cd38dce570485288ae2c2f1ec914c",
+                "url": "https://api.github.com/repos/luyadev/luya/zipball/cd4e862fc77d634011aa1c03d87fcbbbcf01c6f3",
+                "reference": "cd4e862fc77d634011aa1c03d87fcbbbcf01c6f3",
                 "shasum": ""
             },
             "require": {
@@ -558,7 +558,7 @@
                 "website",
                 "yii2"
             ],
-            "time": "2018-01-01T15:16:28+00:00"
+            "time": "2018-01-02T07:54:55+00:00"
         },
         {
             "name": "luyadev/luya-composer",

@@ -12,7 +12,8 @@
             "luya\\" : "repos/luya/core",
             "luya\\admin\\" : "repos/luya-module-admin/src",
             "luya\\cms\\" : "repos/luya-module-cms/src",
-            "luya\\news\\" : "repos/luya-module-news/src"
+            "luya\\news\\" : "repos/luya-module-news/src",
+            "luya\\contactform\\" : "repos/luya-module-contactform/src"
         }
     },
     "config": {
