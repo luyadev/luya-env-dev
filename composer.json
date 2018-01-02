@@ -7,6 +7,10 @@
         "luyadev/luya-module-cms" : "~1.0.0",
         "cpliakas/git-wrapper": "~1.0"
     },
+    "require-dev" : {
+        "yiisoft/yii2-debug" : "~2.0.0",
+        "yiisoft/yii2-gii" : "~2.0.0"
+    },
     "autoload" : {
         "psr-4" : {
             "luya\\" : "repos/luya/core",
