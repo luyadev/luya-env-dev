@@ -4,6 +4,11 @@
 
 # LUYA Dev Environment
 
+[![LUYA](https://img.shields.io/badge/Powered%20by-LUYA-brightgreen.svg)](https://luya.io)
+[![Latest Stable Version](https://poser.pugx.org/luyadev/luya-env-dev/v/stable)](https://packagist.org/packages/luyadev/luya-env-dev)
+[![Total Downloads](https://poser.pugx.org/luyadev/luya-env-dev/downloads)](https://packagist.org/packages/luyadev/luya-env-dev)
+[![Slack Support](https://img.shields.io/badge/Slack-luyadev-yellowgreen.svg)](https://slack.luya.io/)
+
 The luya-dev-env repo helps you developing new extension and modules or making pull requests to the luya core repos.
 
 ## Installation
