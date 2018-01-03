@@ -2,7 +2,7 @@
     "name" : "luyadev/luya-env-dev",
     "description" : "LUYA Dev Env",
     "require" : {
-        "luyadev/luya" : "^1.0@dev",
+        "luyadev/luya" : "~1.0.1",
         "luyadev/luya-module-admin" : "~1.0.0",
         "luyadev/luya-module-cms" : "~1.0.0",
         "cpliakas/git-wrapper": "~1.0"

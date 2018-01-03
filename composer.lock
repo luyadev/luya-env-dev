@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "372398c8a7e6908a46abd30db997f771",
+    "content-hash": "c8d160dea5c0f185703021cbb91edca1",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -490,22 +490,23 @@
         },
         {
             "name": "luyadev/luya",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya.git",
-                "reference": "4e834f8feaae3bca266883d5d74b2e3b0e9fbaf7"
+                "reference": "b7c4eda987ae0f849e76d822cfd88082dda952c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya/zipball/4e834f8feaae3bca266883d5d74b2e3b0e9fbaf7",
-                "reference": "4e834f8feaae3bca266883d5d74b2e3b0e9fbaf7",
+                "url": "https://api.github.com/repos/luyadev/luya/zipball/b7c4eda987ae0f849e76d822cfd88082dda952c3",
+                "reference": "b7c4eda987ae0f849e76d822cfd88082dda952c3",
                 "shasum": ""
             },
             "require": {
                 "cpliakas/git-wrapper": "~1.0",
                 "curl/curl": "~1.0",
                 "luyadev/luya-composer": "~1.0.0",
+                "nadar/php-composer-reader": "^1.0",
                 "phpmailer/phpmailer": "^6.0",
                 "yiisoft/yii2": "~2.0.0"
             },
@@ -531,7 +532,8 @@
                 "psr-4": {
                     "luya\\": "core/",
                     "luya\\dev\\": "dev",
-                    "luyatests\\": "tests/"
+                    "luyatests\\": "tests/",
+                    "Aspsms\\": "repos/aspsms/src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -558,7 +560,7 @@
                 "website",
                 "yii2"
             ],
-            "time": "2018-01-02T19:04:23+00:00"
+            "time": "2018-01-03T17:13:19+00:00"
         },
         {
             "name": "luyadev/luya-composer",
@@ -749,6 +751,42 @@
                 "yii2-cms"
             ],
             "time": "2017-12-12T11:29:15+00:00"
+        },
+        {
+            "name": "nadar/php-composer-reader",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nadar/php-composer-reader.git",
+                "reference": "5561e0a541660dd7419ca15de95c57c3e185c3cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nadar/php-composer-reader/zipball/5561e0a541660dd7419ca15de95c57c3e185c3cd",
+                "reference": "5561e0a541660dd7419ca15de95c57c3e185c3cd",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nadar\\PhpComposerReader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Basil Suter",
+                    "email": "git@nadar.io"
+                }
+            ],
+            "description": "Read and manipulate composer.json",
+            "time": "2018-01-03T15:53:35+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -1392,9 +1430,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "luyadev/luya": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
