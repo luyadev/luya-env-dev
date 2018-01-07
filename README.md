@@ -34,10 +34,10 @@ For all the FORKED repos (not the read only repos) you can now make changes dire
 
 > The disired namespace of the module or extension have to be added via psr-4 binding to the `composer.json` in the **luya-env-dev** root directory, that you can include the module in `configs/env.php` at the module section with a nicly readable class name. Do not forget to run `composer dump-autoload` after editing the `composer.json`file.
 
-# Develop your own module or extensions 
+# Develop your own module or extension 
 
 1. Clone your repo into the repos folder with `./vendor/bin/luyadev repo/clone USERNAME/REPO_NAME`.
-2. Create a `Module.php` file accordingly to the LUYA specifications.
+2. Create a `Module.php` file accordingly to the [LUYA guide specifications](https://luya.io/guide/app-module).
 3. Adding your module via psr-4 binding to your `composer.json` at the autoload section from **luya-env-dev** root directory.
 4. Run `composer dump-autoload` for luya-env-dev.
 5. Include your module in `configs/env.php`.
@@ -45,9 +45,9 @@ For all the FORKED repos (not the read only repos) you can now make changes dire
 > If you would like to use the `@bower` alias inside your own module to include dependencies from `vendor/bower` keep in mind that dependecies need to be installed via composer inside your luya-env-dev root directory.
 
 
-## Managing asssets and vendors in modules and extensions
+## Managing assets and vendors in modules and extensions
 
-Please keep in mind that all modules and extensions are treated as independent projects, so do not forget to run in the **root directory of the module** `composer install` and probably `npm install` in the `/resources` directory of the module to download all needed dependencies.
+Please keep in mind that all modules and extensions are treated as independent projects, so do not forget to run in the **root directory of the module** `composer install` and probably `npm install` in the `/resources` directories of modules to download all needed dependencies.
 
 ## Find more infos
 
