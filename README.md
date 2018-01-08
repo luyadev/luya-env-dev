@@ -32,8 +32,6 @@ For all the FORKED repos (not the read only repos) you can now make changes dire
 4. Push branch to your fork `git push origin my-fix`.
 5. Create pull request from GitHub.
 
-> The disired namespace of the module or extension have to be added via psr-4 binding to the `composer.json` in the **luya-env-dev** root directory, that you can include the module in `configs/env.php` at the module section with a nicly readable class name. Do not forget to run `composer dump-autoload` after editing the `composer.json`file.
-
 # Develop your own module or extension 
 
 1. Clone your repo into the repos folder with `./vendor/bin/luyadev repo/clone USERNAME/REPO_NAME`.
