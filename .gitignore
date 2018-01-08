@@ -7,3 +7,5 @@
 /cachestorage.json
 /devconfig.json
 /runtime/
+.DS_Store
+.idea/
