@@ -11,7 +11,7 @@
 
 The luya-dev-env repo helps you developing new extension and modules or making pull requests to the luya core repos.
 
-## Installation
+# Installation
 
 > **Before installing the env dev project, fork the repos you like to work with.**
 
@@ -45,9 +45,20 @@ For all the FORKED repos (not the read only repos) you can now make changes dire
 > If you would like to use the `@bower` alias inside your own module to include dependencies from `vendor/bower` keep in mind that dependecies need to be installed via composer inside your luya-env-dev root directory.
 
 
-## Managing assets and vendors in modules and extensions
+# Managing assets and vendors in modules and extensions
 
 Please keep in mind that all modules and extensions are treated as independent projects, so do not forget to run in the **root directory of the module** `composer install` and probably `npm install` in the `/resources` directories of modules to download all needed dependencies.
+
+
+# Update and rebase your local luya-env-dev 
+
+To get the latest versions for der included modules in the repos folder simply run:
+
+`./envdev env/update`
+
+This will update the forked master branches, do not forget to push the modules it self after update. 
+
+> Always create a new branch to work on and leave the master branches untouched to ensure the update command works properly.
 
 ## Find more infos
 
