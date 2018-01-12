@@ -52,7 +52,7 @@ Please keep in mind that all modules and extensions are treated as independent p
 
 To fetch the upstream for all forked modules from the `repos` folder run:
 
-`/vendor/bin/luyadev repo/update`
+`./vendor/bin/luyadev repo/update`
 
 Make sure you push each module after update to get your remote fork even with the upstream.
 
