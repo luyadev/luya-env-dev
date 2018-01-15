@@ -33,7 +33,7 @@
         "yii\\composer\\Installer::postCreateProject": {
             "setPermission": [
                 {
-                    "cachestorage.json": "0777"
+                    "devconfig.json": "0777"
                 }
             ]
         },
