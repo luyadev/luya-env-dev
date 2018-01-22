@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c8d160dea5c0f185703021cbb91edca1",
+    "content-hash": "841ea8679cd4574ea86c63fd4a3fed5b",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -490,16 +490,16 @@
         },
         {
             "name": "luyadev/luya",
-            "version": "1.0.1",
+            "version": "1.0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya.git",
-                "reference": "b7c4eda987ae0f849e76d822cfd88082dda952c3"
+                "reference": "fd4d508727f47b1d947f2f064382a00756fa2034"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya/zipball/b7c4eda987ae0f849e76d822cfd88082dda952c3",
-                "reference": "b7c4eda987ae0f849e76d822cfd88082dda952c3",
+                "url": "https://api.github.com/repos/luyadev/luya/zipball/fd4d508727f47b1d947f2f064382a00756fa2034",
+                "reference": "fd4d508727f47b1d947f2f064382a00756fa2034",
                 "shasum": ""
             },
             "require": {
@@ -560,20 +560,20 @@
                 "website",
                 "yii2"
             ],
-            "time": "2018-01-03T17:13:19+00:00"
+            "time": "2018-01-22T13:17:58+00:00"
         },
         {
             "name": "luyadev/luya-composer",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-composer.git",
-                "reference": "d2cb071f72a0652832615e18b5134478a510e0db"
+                "reference": "d5274bd0e7a67987c7b4b3ee9d91f8268f638174"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-composer/zipball/d2cb071f72a0652832615e18b5134478a510e0db",
-                "reference": "d2cb071f72a0652832615e18b5134478a510e0db",
+                "url": "https://api.github.com/repos/luyadev/luya-composer/zipball/d5274bd0e7a67987c7b4b3ee9d91f8268f638174",
+                "reference": "d5274bd0e7a67987c7b4b3ee9d91f8268f638174",
                 "shasum": ""
             },
             "require": {
@@ -610,20 +610,20 @@
                 "composer",
                 "luya"
             ],
-            "time": "2017-12-03T12:32:47+00:00"
+            "time": "2018-01-16T09:12:39+00:00"
         },
         {
             "name": "luyadev/luya-module-admin",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-admin.git",
-                "reference": "7861fe4f77f87f6ede734a077247e590fd59340d"
+                "reference": "886638fd88973ca5c34be1a870d8a243288adfc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-admin/zipball/7861fe4f77f87f6ede734a077247e590fd59340d",
-                "reference": "7861fe4f77f87f6ede734a077247e590fd59340d",
+                "url": "https://api.github.com/repos/luyadev/luya-module-admin/zipball/886638fd88973ca5c34be1a870d8a243288adfc1",
+                "reference": "886638fd88973ca5c34be1a870d8a243288adfc1",
                 "shasum": ""
             },
             "require": {
@@ -636,6 +636,7 @@
                 "bower-asset/angular-loading-bar": "^0.9",
                 "bower-asset/angularjs-datepicker": "^2.1.0",
                 "bower-asset/bowser": "~1.7.3",
+                "bower-asset/echarts": "~3.8.5",
                 "bower-asset/ng-file-upload": "~12.2.0",
                 "bower-asset/ng-flow": "~2.7.0",
                 "bower-asset/ng-wig": "~3.0.0",
@@ -682,28 +683,26 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2018-01-05T14:43:40+00:00"
+            "time": "2018-01-20T14:14:20+00:00"
         },
         {
             "name": "luyadev/luya-module-cms",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-cms.git",
-                "reference": "05824321005df10a366cd47f24a83f50c789314d"
+                "reference": "3a0795269f7af8fdfd82856aaa8e4f3efeed23aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-cms/zipball/05824321005df10a366cd47f24a83f50c789314d",
-                "reference": "05824321005df10a366cd47f24a83f50c789314d",
+                "url": "https://api.github.com/repos/luyadev/luya-module-cms/zipball/3a0795269f7af8fdfd82856aaa8e4f3efeed23aa",
+                "reference": "3a0795269f7af8fdfd82856aaa8e4f3efeed23aa",
                 "shasum": ""
             },
             "require-dev": {
-                "luyadev/luya": "^1.0@dev",
-                "luyadev/luya-module-admin": "^1.0@dev",
+                "luyadev/luya-testsuite": "~1.0.0",
                 "php-coveralls/php-coveralls": "^1.0",
-                "phpunit/phpunit": "~5.0",
-                "twig/twig": "^1.0"
+                "twbs/bootstrap": "v4.0.0-beta"
             },
             "type": "luya-core",
             "extra": {
@@ -748,7 +747,7 @@
                 "yii2",
                 "yii2-cms"
             ],
-            "time": "2017-12-12T11:29:15+00:00"
+            "time": "2018-01-17T10:02:41+00:00"
         },
         {
             "name": "nadar/php-composer-reader",
