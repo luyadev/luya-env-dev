@@ -490,16 +490,16 @@
         },
         {
             "name": "luyadev/luya",
-            "version": "1.0.2.1",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya.git",
-                "reference": "fd4d508727f47b1d947f2f064382a00756fa2034"
+                "reference": "be9b78d6ab7364b839d9652e9546b5ba4f9c8ae6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya/zipball/fd4d508727f47b1d947f2f064382a00756fa2034",
-                "reference": "fd4d508727f47b1d947f2f064382a00756fa2034",
+                "url": "https://api.github.com/repos/luyadev/luya/zipball/be9b78d6ab7364b839d9652e9546b5ba4f9c8ae6",
+                "reference": "be9b78d6ab7364b839d9652e9546b5ba4f9c8ae6",
                 "shasum": ""
             },
             "require": {
@@ -560,7 +560,7 @@
                 "website",
                 "yii2"
             ],
-            "time": "2018-01-22T13:17:58+00:00"
+            "time": "2018-01-24T14:54:58+00:00"
         },
         {
             "name": "luyadev/luya-composer",
@@ -853,7 +853,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.4.3",
+            "version": "v3.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -916,16 +916,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v3.4.3",
+            "version": "v3.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "ff69f110c6b33fd33cd2089ba97d6112f44ef0ba"
+                "reference": "09a5172057be8fc677840e591b17f385e58c7c0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/ff69f110c6b33fd33cd2089ba97d6112f44ef0ba",
-                "reference": "ff69f110c6b33fd33cd2089ba97d6112f44ef0ba",
+                "url": "https://api.github.com/repos/symfony/process/zipball/09a5172057be8fc677840e591b17f385e58c7c0d",
+                "reference": "09a5172057be8fc677840e591b17f385e58c7c0d",
                 "shasum": ""
             },
             "require": {
@@ -961,7 +961,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03T07:37:34+00:00"
+            "time": "2018-01-29T09:03:43+00:00"
         },
         {
             "name": "yiisoft/yii2",
