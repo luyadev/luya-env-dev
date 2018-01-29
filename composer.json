@@ -1,6 +1,15 @@
 {
     "name": "luyadev/luya-env-dev",
-    "description": "LUYA Dev Env",
+    "description": "The LUYA DEV ENV repo helps you developing new extension and modules or making pull requests to the luya core repos.",
+    "type" : "luya-core",
+    "keywords" : [
+        "php",
+        "luya",
+        "module",
+        "extension",
+        "developer",
+        "builder"
+    ],
     "require": {
         "luyadev/luya": "~1.0.1",
         "luyadev/luya-module-admin": "~1.0.0",
