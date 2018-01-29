@@ -11,10 +11,9 @@
         "builder"
     ],
     "require": {
-        "luyadev/luya": "~1.0.1",
+        "luyadev/luya": "~1.0.3",
         "luyadev/luya-module-admin": "~1.0.0",
-        "luyadev/luya-module-cms": "~1.0.0",
-        "cpliakas/git-wrapper": "~1.0"
+        "luyadev/luya-module-cms": "~1.0.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
