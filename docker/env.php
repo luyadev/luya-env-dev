@@ -1,2 +1,2 @@
 <?php
-return require 'env-local.php';
+return require 'env.php';

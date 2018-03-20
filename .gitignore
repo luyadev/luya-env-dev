@@ -9,3 +9,4 @@
 /runtime/
 .DS_Store
 .idea/
+.env
