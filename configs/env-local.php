@@ -5,7 +5,7 @@ define('YII_ENV', 'dev');
 
 $config = [
     'id' => 'testenv',
-    'siteTitle' => 'Test-Env',
+    'siteTitle' => 'LUYA Test Env',
     'basePath' => dirname(__DIR__),
     'defaultRoute' => 'cms',
     'modules' => [
@@ -34,5 +34,12 @@ $config = [
     ]
 ];
 
+
+if (YII_DEBUG) {
+    $config['bootstrap'][] = 'debug';
+    $config['modules']['debug'] = ['class'=> 'yii\debug\Module', 'allowedIPs' => ['*']];
+    $config['bootstrap'][] = 'gii';
+    $config['modules']['gii'] = ['class'=> 'yii\gii\Module', 'allowedIPs' => ['*']];
+}
 
 return \yii\helpers\ArrayHelper::merge($config, require('env-local-db.php'));
