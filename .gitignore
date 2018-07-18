@@ -10,3 +10,5 @@
 .DS_Store
 .idea/
 .env
+/configs/env-local-db.php
+/configs/env.php
