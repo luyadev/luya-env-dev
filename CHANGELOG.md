@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file. This projec
 
 ## 1.0.2 (in progress)
 
++ Added latest admin dev version dependency.
+
 ## 1.0.1 (18. July 2018)
 
 + Added docker files.
