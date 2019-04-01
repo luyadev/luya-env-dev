@@ -30,7 +30,7 @@ $config = [
         ],
     ],
     'bootstrap' => [
-        'luya\cms\frontend\Bootstrap',
+        'luya\cms\frontend\Bootstrap', 'luya\admin\Bootstrap',
     ]
 ];
 

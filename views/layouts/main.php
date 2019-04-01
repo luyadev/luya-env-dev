@@ -32,7 +32,7 @@ $this->beginPage();
                 <ul class="nav navbar-nav">
                 <?php foreach (Yii::$app->menu->find()->root()->container('default')->all() as $item): ?>
                     <li <?php if ($item->isActive): ?>class="active"<?php endif;?>>
-                        <a href="<?= $item->link; ?>"><?= $item->title; ?></a>
+                        <a href="<?= $item->link; ?>" target="<?= $item->target; ?>"><?= $item->title; ?></a>
                     </li>
                 <?php endforeach; ?>
                 </ul>
