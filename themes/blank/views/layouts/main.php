@@ -1,9 +1,10 @@
 <?php
-use app\assets\ResourcesAsset;
+use app\themes\blank\assets\ResourcesAsset;
 
 use luya\cms\widgets\LangSwitcher;
 
 ResourcesAsset::register($this);
+$assets = $this->getAssetUrl('app\themes\blank\assets\ResourcesAsset');
 
 /* @var $this luya\web\View */
 /* @var $content string */
@@ -25,7 +26,7 @@ $this->beginPage();
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="https://luya.io" target="_blank" >
-                    <img alt="Brand" src="<?= $this->publicHtml; ?>/images/luya_logo_flat_icon.png" height="20px">
+                    <img alt="Brand" src="<?= $assets; ?>/images/logo.png" height="20px">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
