@@ -36,3 +36,7 @@ services:
       - ./docker/env.php:/app/configs/env.php
       - ./docker/env-local-db.php:/app/configs/env-local-db.php
       - ./docker/site.conf:/etc/nginx/conf.d/default.conf
+  unglue:
+    image: unglue/server
+    ports:
+      - "3000:3000"
