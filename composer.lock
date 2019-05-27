@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0aa3f75881ad6e3711c1cc352b6a9c6f",
+    "content-hash": "1504d1e25296197b3b4b13e81c2f2b6a",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -286,16 +286,16 @@
         },
         {
             "name": "cpliakas/git-wrapper",
-            "version": "v2.2.0",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cpliakas/git-wrapper.git",
-                "reference": "0b4cd8bba1cc6326dfb00f41c4abb97cc89bf2d4"
+                "reference": "05a047acc578c2d0ca6fdb985598467860285dc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cpliakas/git-wrapper/zipball/0b4cd8bba1cc6326dfb00f41c4abb97cc89bf2d4",
-                "reference": "0b4cd8bba1cc6326dfb00f41c4abb97cc89bf2d4",
+                "url": "https://api.github.com/repos/cpliakas/git-wrapper/zipball/05a047acc578c2d0ca6fdb985598467860285dc7",
+                "reference": "05a047acc578c2d0ca6fdb985598467860285dc7",
                 "shasum": ""
             },
             "require": {
@@ -305,12 +305,12 @@
             },
             "require-dev": {
                 "nette/utils": "^2.5",
-                "phpstan/phpstan": "^0.11",
+                "phpstan/phpstan": "^0.10.5",
                 "phpunit/phpunit": "^7.4",
                 "psr/log": "1.0",
                 "symfony/filesystem": "^4.1",
-                "symplify/changelog-linker": "^5.4",
-                "symplify/easy-coding-standard": "^5.4"
+                "symplify/changelog-linker": "^5.2",
+                "symplify/easy-coding-standard": "^5.2"
             },
             "suggest": {
                 "monolog/monolog": "Enables logging of executed git commands"
@@ -341,7 +341,7 @@
                 "git",
                 "git wrapper"
             ],
-            "time": "2019-04-28T22:31:09+00:00"
+            "time": "2018-11-09T00:15:45+00:00"
         },
         {
             "name": "curl/curl",
