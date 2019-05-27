@@ -68,16 +68,16 @@
         },
         {
             "name": "bower-asset/jquery",
-            "version": "3.3.1",
+            "version": "3.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jquery/jquery-dist.git",
-                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
+                "reference": "15bc73803f76bc53b654b9fdbbbc096f56d7c03d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/9e8ec3d10fad04748176144f108d7355662ae75e",
-                "reference": "9e8ec3d10fad04748176144f108d7355662ae75e",
+                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/15bc73803f76bc53b654b9fdbbbc096f56d7c03d",
+                "reference": "15bc73803f76bc53b654b9fdbbbc096f56d7c03d",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -96,7 +96,7 @@
                 "jquery",
                 "library"
             ],
-            "time": "2018-01-20T17:26:57+00:00"
+            "time": "2019-05-01T21:19:28+00:00"
         },
         {
             "name": "bower-asset/punycode",
@@ -286,16 +286,16 @@
         },
         {
             "name": "cpliakas/git-wrapper",
-            "version": "v2.1.0",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cpliakas/git-wrapper.git",
-                "reference": "05a047acc578c2d0ca6fdb985598467860285dc7"
+                "reference": "0b4cd8bba1cc6326dfb00f41c4abb97cc89bf2d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cpliakas/git-wrapper/zipball/05a047acc578c2d0ca6fdb985598467860285dc7",
-                "reference": "05a047acc578c2d0ca6fdb985598467860285dc7",
+                "url": "https://api.github.com/repos/cpliakas/git-wrapper/zipball/0b4cd8bba1cc6326dfb00f41c4abb97cc89bf2d4",
+                "reference": "0b4cd8bba1cc6326dfb00f41c4abb97cc89bf2d4",
                 "shasum": ""
             },
             "require": {
@@ -305,12 +305,12 @@
             },
             "require-dev": {
                 "nette/utils": "^2.5",
-                "phpstan/phpstan": "^0.10.5",
+                "phpstan/phpstan": "^0.11",
                 "phpunit/phpunit": "^7.4",
                 "psr/log": "1.0",
                 "symfony/filesystem": "^4.1",
-                "symplify/changelog-linker": "^5.2",
-                "symplify/easy-coding-standard": "^5.2"
+                "symplify/changelog-linker": "^5.4",
+                "symplify/easy-coding-standard": "^5.4"
             },
             "suggest": {
                 "monolog/monolog": "Enables logging of executed git commands"
@@ -341,7 +341,7 @@
                 "git",
                 "git wrapper"
             ],
-            "time": "2018-11-09T00:15:45+00:00"
+            "time": "2019-04-28T22:31:09+00:00"
         },
         {
             "name": "curl/curl",
@@ -822,16 +822,16 @@
         },
         {
             "name": "luyadev/luya",
-            "version": "1.0.17",
+            "version": "1.0.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya.git",
-                "reference": "6a795c9b1365604bd10100a1a100ecf3c53a7ad4"
+                "reference": "489f968bc461a17808b914d041702c309fd0725d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya/zipball/6a795c9b1365604bd10100a1a100ecf3c53a7ad4",
-                "reference": "6a795c9b1365604bd10100a1a100ecf3c53a7ad4",
+                "url": "https://api.github.com/repos/luyadev/luya/zipball/489f968bc461a17808b914d041702c309fd0725d",
+                "reference": "489f968bc461a17808b914d041702c309fd0725d",
                 "shasum": ""
             },
             "require": {
@@ -891,20 +891,20 @@
                 "website",
                 "yii2"
             ],
-            "time": "2019-04-23T08:27:34+00:00"
+            "time": "2019-05-27T10:05:39+00:00"
         },
         {
             "name": "luyadev/luya-composer",
-            "version": "1.0.4.2",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-composer.git",
-                "reference": "2e80ae60066ba53c131a25b0b088a607dc226dc6"
+                "reference": "4d9d1cb15346ff0cbbc3dfebeed9d5bb4013380e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-composer/zipball/2e80ae60066ba53c131a25b0b088a607dc226dc6",
-                "reference": "2e80ae60066ba53c131a25b0b088a607dc226dc6",
+                "url": "https://api.github.com/repos/luyadev/luya-composer/zipball/4d9d1cb15346ff0cbbc3dfebeed9d5bb4013380e",
+                "reference": "4d9d1cb15346ff0cbbc3dfebeed9d5bb4013380e",
                 "shasum": ""
             },
             "require": {
@@ -941,7 +941,7 @@
                 "composer",
                 "luya"
             ],
-            "time": "2018-12-24T09:18:03+00:00"
+            "time": "2019-05-14T05:37:27+00:00"
         },
         {
             "name": "luyadev/luya-module-admin",
@@ -1083,16 +1083,16 @@
         },
         {
             "name": "nadar/php-composer-reader",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadar/php-composer-reader.git",
-                "reference": "c7e475a459ddf9cdaa831032651e66ca449649c8"
+                "reference": "1498c172313c5402357f43066c3e07f310f69076"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadar/php-composer-reader/zipball/c7e475a459ddf9cdaa831032651e66ca449649c8",
-                "reference": "c7e475a459ddf9cdaa831032651e66ca449649c8",
+                "url": "https://api.github.com/repos/nadar/php-composer-reader/zipball/1498c172313c5402357f43066c3e07f310f69076",
+                "reference": "1498c172313c5402357f43066c3e07f310f69076",
                 "shasum": ""
             },
             "require": {
@@ -1118,7 +1118,7 @@
                 }
             ],
             "description": "Read and manipulate composer.json",
-            "time": "2018-12-21T09:33:42+00:00"
+            "time": "2019-04-30T13:02:20+00:00"
         },
         {
             "name": "nadar/stemming",
@@ -1322,7 +1322,7 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
@@ -1379,16 +1379,16 @@
         },
         {
             "name": "symfony/contracts",
-            "version": "v1.0.2",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
-                "reference": "1aa7ab2429c3d594dd70689604b5cf7421254cdf"
+                "reference": "d3636025e8253c6144358ec0a62773cae588395b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/1aa7ab2429c3d594dd70689604b5cf7421254cdf",
-                "reference": "1aa7ab2429c3d594dd70689604b5cf7421254cdf",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/d3636025e8253c6144358ec0a62773cae588395b",
+                "reference": "d3636025e8253c6144358ec0a62773cae588395b",
                 "shasum": ""
             },
             "require": {
@@ -1396,19 +1396,22 @@
             },
             "require-dev": {
                 "psr/cache": "^1.0",
-                "psr/container": "^1.0"
+                "psr/container": "^1.0",
+                "symfony/polyfill-intl-idn": "^1.10"
             },
             "suggest": {
                 "psr/cache": "When using the Cache contracts",
                 "psr/container": "When using the Service contracts",
                 "symfony/cache-contracts-implementation": "",
+                "symfony/event-dispatcher-implementation": "",
+                "symfony/http-client-contracts-implementation": "",
                 "symfony/service-contracts-implementation": "",
                 "symfony/translation-contracts-implementation": ""
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -1443,11 +1446,11 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2018-12-05T08:06:11+00:00"
+            "time": "2019-04-27T14:29:50+00:00"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -1500,7 +1503,7 @@
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v3.4.26",
+            "version": "v3.4.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
@@ -1557,7 +1560,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.2.7",
+            "version": "v4.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -1664,7 +1667,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -1738,7 +1741,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v4.2.7",
+            "version": "v4.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -1787,21 +1790,21 @@
         },
         {
             "name": "yiisoft/yii2",
-            "version": "2.0.18",
+            "version": "2.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "b80830c5f8c221b8bd6a830c5b2f45544f82c4d7"
+                "reference": "3e74c7338dd83cea6ffc6f5c25202b9f2f271f89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/b80830c5f8c221b8bd6a830c5b2f45544f82c4d7",
-                "reference": "b80830c5f8c221b8bd6a830c5b2f45544f82c4d7",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/3e74c7338dd83cea6ffc6f5c25202b9f2f271f89",
+                "reference": "3e74c7338dd83cea6ffc6f5c25202b9f2f271f89",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/inputmask": "~3.2.2 | ~3.3.5",
-                "bower-asset/jquery": "3.3.*@stable | 3.2.*@stable | 3.1.*@stable | 2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
+                "bower-asset/jquery": "3.4.*@stable | 3.3.*@stable | 3.2.*@stable | 3.1.*@stable | 2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
                 "bower-asset/punycode": "1.3.*",
                 "bower-asset/yii2-pjax": "~2.0.1",
                 "cebe/markdown": "~1.0.0 | ~1.1.0 | ~1.2.0",
@@ -1883,7 +1886,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2019-04-16T14:27:26+00:00"
+            "time": "2019-05-21T16:01:16+00:00"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -2135,11 +2138,6 @@
             },
             "require": {
                 "bower-asset/jquery": ">=1.7"
-            },
-            "require-dev": {
-                "bower-asset/jasmine-ajax": "~1.3.1",
-                "bower-asset/jasmine-jquery": "~1.5.2",
-                "bower-asset/jquery": "~1.7"
             },
             "type": "bower-asset-library",
             "extra": {
