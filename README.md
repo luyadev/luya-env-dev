@@ -42,6 +42,10 @@ For all the FORKED repos (not the read only repos) you can now make changes dire
 4. Push branch to your fork `git push origin my-fix`.
 5. Create pull request from GitHub.
 
+## Run Unit Tests for a Repo
+
+In order to run your tests for the repro please keep in mind that first of all you have to run `composer install` in the **root of the repo** (e.g. luya-admin-module) to install all dependencies. Than run `./vendor/bin/phpunit tests` in the **root of the repo** to run the tests in the tests-folder.
+
 ## Develop your own module or extension 
 
 1. Clone your repo into the repos folder with `./vendor/bin/luyadev repo/clone USERNAME/REPO_NAME`.
@@ -56,7 +60,6 @@ For all the FORKED repos (not the read only repos) you can now make changes dire
 ## Managing assets and vendors in modules and extensions
 
 Please keep in mind that all modules and extensions are treated as independent projects, so do not forget to run in the **root directory of the module** `composer install` and probably `npm install` in the `/resources` directories of modules to download all needed dependencies.
-
 
 ## Find more infos
 
