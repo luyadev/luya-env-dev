@@ -44,7 +44,7 @@ For all the FORKED repos (not the read only repos) you can now make changes dire
 
 ## Run Unit Tests for a Repo
 
-In order to run your tests for the repro please keep in mind that first of all you have to run `composer install` in the **root of the repo** (e.g. luya-admin-module) to install all dependencies. Than run `./vendor/bin/phpunit tests` in the **root of the repo** to run the tests in the tests-folder.
+In order to run your tests for the repo please keep in mind that first of all you have to run `composer install` in the **root of the repo** (e.g. `replos/luya-admin-module`) to install all dependencies afterwards run `./vendor/bin/phpunit tests` in the **root of the repo** to run the tests in the tests-folder.
 
 ## Develop your own module or extension 
 
@@ -55,7 +55,6 @@ In order to run your tests for the repro please keep in mind that first of all y
 5. Include your module in `configs/env.php`.
 
 > If you would like to use the `@bower` alias inside your own module to include dependencies from `vendor/bower` keep in mind that dependecies need to be installed via composer inside your luya-env-dev root directory.
-
 
 ## Managing assets and vendors in modules and extensions
 
