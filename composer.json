@@ -17,7 +17,9 @@
         "fabpot/goutte": "~3.1.0",
         "jakeasmith/http_build_url": "^1.0",
         "nadar/stemming": "^1.0",
-        "cpliakas/git-wrapper": "2.1.0"
+        "cpliakas/git-wrapper": "2.1.0",
+        "sizeg/yii2-jwt": "^1.2",
+		"whichbrowser/parser": "^2.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
