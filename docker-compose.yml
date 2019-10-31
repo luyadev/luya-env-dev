@@ -27,6 +27,8 @@ services:
       MYSQL_DATABASE: luya_env_dev
       MYSQL_USER: luya
       MYSQL_PASSWORD: CHANGE_ME
+    ports:
+      - "3300:3306"
   luya_web:
     image: nginx:latest
     ports:
