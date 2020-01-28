@@ -22,8 +22,8 @@
 		"whichbrowser/parser": "^2.0"
     },
     "require-dev": {
-        "yiisoft/yii2-debug": "~2.0.0",
-        "yiisoft/yii2-gii": "~2.0.0"
+        "yiisoft/yii2-debug": "^2.0",
+        "yiisoft/yii2-gii": "^2.0"
     },
     "autoload": {
         "psr-4": {
@@ -33,14 +33,18 @@
             "luya\\crawler\\": "repos/luya-module-crawler/src/"
         }
     },
+
     "config": {
         "fxp-asset": {
-            "pattern-skip-version": "(-build|-patch)",
-            "installer-paths": {
-                "bower-asset-library": "vendor/bower"
-            }
+            "enabled": false
         }
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
     "extra": {
         "yii\\composer\\Installer::postCreateProject": {
             "setPermission": [
@@ -48,9 +52,6 @@
                     "devconfig.json": "0777"
                 }
             ]
-        },
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
         }
     }
 }
