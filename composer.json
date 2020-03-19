@@ -19,8 +19,9 @@
         "nadar/stemming": "^1.0",
         "cpliakas/git-wrapper": "2.1.0",
         "sizeg/yii2-jwt": "^1.2",
-		"whichbrowser/parser": "^2.0",
-        "robthree/twofactorauth": "^1.7"
+        "whichbrowser/parser": "^2.0",
+        "robthree/twofactorauth": "^1.7",
+        "newsletter2go/api": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "^2.0",
@@ -31,10 +32,10 @@
             "luya\\": "repos/luya/core",
             "luya\\admin\\": "repos/luya-module-admin/src",
             "luya\\cms\\": "repos/luya-module-cms/src",
-            "luya\\crawler\\": "repos/luya-module-crawler/src/"
+            "luya\\crawler\\": "repos/luya-module-crawler/src/",
+            "luya\\newsletter2go\\": "repos/luya-newsletter2go/src/"
         }
     },
-
     "config": {
         "fxp-asset": {
             "enabled": false
