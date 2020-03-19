@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "58f37c0ea1f6b7aaa7fbf22562d5811a",
+    "content-hash": "e436e11812c71a308f673ec6b89012f0",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -1411,51 +1411,6 @@
             "time": "2017-03-26T14:30:22+00:00"
         },
         {
-            "name": "newsletter2go/api",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/newsletter2go/newsletter2go-api-php.git",
-                "reference": "b9dcb9bf87dc492b0ea5dd22870b3afa9a90d7ad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/newsletter2go/newsletter2go-api-php/zipball/b9dcb9bf87dc492b0ea5dd22870b3afa9a90d7ad",
-                "reference": "b9dcb9bf87dc492b0ea5dd22870b3afa9a90d7ad",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "NL2GO\\": [
-                        "src/"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Newsletter2Go GmbH",
-                    "email": "support@newsletter2go.com"
-                }
-            ],
-            "description": "PHP API implementation of the Newsletter2Go REST API (https://docs.newsletter2go.com/)",
-            "keywords": [
-                "api",
-                "client",
-                "newsletter2go",
-                "rest"
-            ],
-            "time": "2020-02-28T08:35:40+00:00"
-        },
-        {
             "name": "phpmailer/phpmailer",
             "version": "v6.1.5",
             "source": {
@@ -2771,9 +2726,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "newsletter2go/api": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
