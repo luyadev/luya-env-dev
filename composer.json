@@ -20,7 +20,9 @@
         "cpliakas/git-wrapper": "2.1.0",
         "sizeg/yii2-jwt": "^1.2",
         "whichbrowser/parser": "^2.0",
-        "robthree/twofactorauth": "^1.7"
+        "robthree/twofactorauth": "^1.7",
+        "stripe/stripe-php": "^6.19",
+        "paypal/rest-api-sdk-php" : "^1.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "^2.0",
@@ -32,7 +34,8 @@
             "luya\\admin\\": "repos/luya-module-admin/src",
             "luya\\cms\\": "repos/luya-module-cms/src",
             "luya\\crawler\\": "repos/luya-module-crawler/src/",
-            "luya\\newsletter2go\\": "repos/luya-newsletter2go/src/"
+            "luya\\payment\\": "repos/luya-module-payment/src/",
+            "luya\\payment\\tests\\": "repos/luya-module-payment/tests/"
         }
     },
     "config": {
