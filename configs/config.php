@@ -8,6 +8,7 @@ define('YII_ENV', 'local');
 $config = new Config('testenv', dirname(__DIR__), [
     'siteTitle' => 'LUYA Test Env',
     'defaultRoute' => 'cms',
+    'remoteToken' => 'foobar',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
@@ -21,6 +22,7 @@ $config = new Config('testenv', dirname(__DIR__), [
             'class' => 'luya\admin\Module',
             'interfaceLanguage' => 'en',
             'secureLogin' => false,
+            'publicOpenApi' => true,
         ],
         'debug' => [
             'class' => 'yii\debug\Module',
@@ -45,7 +47,7 @@ $config = new Config('testenv', dirname(__DIR__), [
         ],
     ],
     'bootstrap' => [
-        'luya\cms\frontend\Bootstrap', 'luya\admin\Bootstrap', 'debug', 'gii',
+        'luya\cms\frontend\Bootstrap', 'luya\admin\Bootstrap', 'debug'
     ]
 ]);
 
