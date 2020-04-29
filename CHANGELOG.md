@@ -2,10 +2,14 @@
 
 All notable changes to this project will be documented in this file. This project make usage of the [Yii Versioning Strategy](https://github.com/yiisoft/yii2/blob/master/docs/internals/versions.md).
 
-## 1.0.5 (29. April 2020)
+## 1.0.6 (29. April 2020)
 
 + new composer packages for better module support
 + update config to allow OpenAPI Generator.
+
+## 1.0.5
+
++ composer update
 
 ## 1.0.4 (29. May 2019)
 
