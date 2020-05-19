@@ -32,3 +32,14 @@ services:
     image: unglue/server
     ports:
       - "3000:3000"
+
+  luya_pma:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      PMA_HOST: luya_db
+      MYSQL_USER: luya
+      MYSQL_PASSWORD: luya
+      MYSQL_ROOT_PASSWORD: luya
+    restart: always
+    ports:
+      - 8001:80
