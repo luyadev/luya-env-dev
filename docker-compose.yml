@@ -40,6 +40,5 @@ services:
       MYSQL_USER: luya
       MYSQL_PASSWORD: luya
       MYSQL_ROOT_PASSWORD: luya
-    restart: always
     ports:
       - 8001:80
