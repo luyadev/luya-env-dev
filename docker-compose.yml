@@ -22,6 +22,14 @@ services:
       MYSQL_PASSWORD: luya
     ports:
       - "3300:3306"
+  # Example Setup for postgreSQL
+  # luya_db:
+  #  image: postgres
+  #  environment:
+  #    POSTGRES_DB: luya_env_dev
+  #    POSTGRES_USER: luya
+  #    POSTGRES_PASSWORD: luya
+  #    POSTGRES_HOST_AUTH_METHOD: trust
   luya_web:
     image: luyadev/luya-docker-nginx
     ports:
