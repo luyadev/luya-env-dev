@@ -25,7 +25,8 @@
         "paypal/rest-api-sdk-php" : "^1.0",
         "luyadev/luya-headless": "^2.5",
         "cebe/php-openapi": "^1.4",
-        "luyadev/yii-helpers": "^1.0"
+        "luyadev/yii-helpers": "^1.0",
+        "aws/aws-sdk-php": "^3.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "^2.0",
