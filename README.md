@@ -16,7 +16,7 @@ The LUYA DEV ENV repo helps you developing new extension and modules or making p
 > **Before installing the env dev project, fork the repos you like to work with.**
 
 1. Clone the luya env dev `git clone https://github.com/luyadev/luya-env-dev.git`
-2. Rename `env.php.dist` to `env.php`
+2. Rename `configs/env.php.dist` to `configs/env.php` (`mv configs/env.php.dist configs/env.php`
 3. Install composer and init repos `composer install` and afterwards `./vendor/bin/luyadev repo/init`
 3. Start the env with docker-compose `docker-compose up`
 4. You can now ssh into the web container and execute the commands `./luya migrate`, `./luya import`, `./luya admin/setup`, `./luya health`.
