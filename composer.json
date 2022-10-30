@@ -12,8 +12,8 @@
     ],
     "require": {
         "luyadev/luya": "^1.0",
-        "luyadev/luya-module-admin": "^3.0",
-        "luyadev/luya-module-cms": "^3.0",
+        "luyadev/luya-module-admin": "^4.0",
+        "luyadev/luya-module-cms": "^4.0",
         "fabpot/goutte": "~3.1.0",
         "jakeasmith/http_build_url": "^1.0",
         "nadar/stemming": "^1.0",
@@ -22,7 +22,7 @@
         "whichbrowser/parser": "^2.0",
         "robthree/twofactorauth": "^1.7",
         "stripe/stripe-php": "^6.19",
-        "paypal/rest-api-sdk-php" : "^1.0",
+        "paypal/rest-api-sdk-php": "^1.0",
         "luyadev/luya-headless": "^2.5",
         "cebe/php-openapi": "^1.4",
         "luyadev/yii-helpers": "^1.0",
@@ -45,6 +45,13 @@
     "config": {
         "fxp-asset": {
             "enabled": false
+        },
+        "platform": {
+            "php": "7.4"
+        },
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "luyadev/luya-composer": true
         }
     },
     "repositories": [
