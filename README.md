@@ -15,14 +15,22 @@ The LUYA DEV ENV repo helps you developing new extension and modules or making p
 
 > **Before installing the env dev project, fork the repos you like to work with.**
 
-1. Create project into your workspace `composer create-project luyadev/luya-env-dev`
-  a. When asked `Do you want to remove the existing VCS (.git, .svn..) history?` - answer with `Y`, `Yes`.
-2. Run init command `./vendor/bin/luyadev repo/init`
-2. Rename `env.php.dist` to `env.php` and modify your *Database connection component* to match your local env settings.
-3. Execute commands `./luya migrate`, `./luya import`, `./luya admin/setup`, `./luya health`.
-4. Access `public_html` on your webserver.
+1. Clone the luya env dev `git clone https://github.com/luyadev/luya-env-dev.git`
+2. Rename `env.php.dist` to `env.php`
+3. Install composer and init repos `composer install` and afterwards `./vendor/bin/luyadev repo/init`
+3. Start the env with docker-compose `docker-compose up`
+4. You can now ssh into the web container and execute the commands `./luya migrate`, `./luya import`, `./luya admin/setup`, `./luya health`.
+5. Test your setup and visit `localhost:8080`
 
 **We recommend using docker and therefore using `docker-compose up`, because this will also run an unglue server you can compile styles with**
+
+## Working on CMS and Admin
+
+If you need to work on CMS or Admin modules, we recommend the above steps has been done and you are running with `docker-compose up`.
+
+1. Edit the module files in the folder `repos/luya-module-...`
+2. Install deps from the module with `composer install` (inside the folder of that module, f.e `repos/luya-module-admin`) (this will install the unglue binary f.e)
+2. If you change js or css code run the unglue watch command **in the modules folder**: `./vendor/bin/unglue watch --server=localhost=localhost:3000`
 
 ## Update your local luya-env-dev repos
 
