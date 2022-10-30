@@ -19,8 +19,8 @@ The LUYA DEV ENV repo helps you developing new extension and modules or making p
 2. Rename `configs/env.php.dist` to `configs/env.php` (`mv configs/env.php.dist configs/env.php`
 3. Install composer and init repos `composer install` and afterwards `./vendor/bin/luyadev repo/init`
 3. Start the env with docker-compose `docker-compose up`
-4. You can now ssh into the web container and execute the commands `./luya migrate`, `./luya import`, `./luya admin/setup`, `./luya health`.
-5. Test your setup and visit `localhost:8080`
+4. You can now ssh (f.e `docker exec -it luya-env-dev_luya_web_1 /bin/bash`) into the web container and execute the commands `./luya migrate`, `./luya import`, `./luya admin/setup`, `./luya health`.
+5. Test your setup and visit `localhost:8080` (Maybe you need to create the `public_html/assets` and `runtime` storage and enable permissions fro them)
 
 **We recommend using docker and therefore using `docker-compose up`, because this will also run an unglue server you can compile styles with**
 
