@@ -5,11 +5,7 @@ services:
     image: composer
     volumes:
       - ./:/app
-    command: composer install
-  luya_php:
-    image: luyadev/luya-docker-php
-    volumes:
-      - ./:/app
+    command: composer install --ignore-platform-reqs 
   luya_db:
     image: mysql:5.7
     command:
@@ -31,11 +27,11 @@ services:
   #    POSTGRES_PASSWORD: luya
   #    POSTGRES_HOST_AUTH_METHOD: trust
   luya_web:
-    image: luyadev/luya-docker-nginx
-    ports:
-      - "8080:80"
+    image: luyadev/luya-docker:nginx-fpm-php74
     volumes:
       - ./:/app
+    ports:
+      - "8080:80"
   unglue:
     image: unglue/server
     ports:
