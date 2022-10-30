@@ -66,5 +66,3 @@ Please keep in mind that all modules and extensions are treated as independent p
 + [API Documentation](https://luya.io/api)
 + [Collaboration Guide](https://luya.io/guide/luya-collaboration)
 + [Issues on GitHub](https://github.com/luyadev/luya/issues)
-+ [Join the Slack Team](https://slack.luya.io)
-+ [Ask us in Gitter](https://gitter.im/luyadev/luya)
