@@ -22,6 +22,8 @@ The LUYA DEV ENV repo helps you developing new extension and modules or making p
 3. Execute commands `./luya migrate`, `./luya import`, `./luya admin/setup`, `./luya health`.
 4. Access `public_html` on your webserver.
 
+**We recommend using docker and therefore using `docker-compose up`, because this will also run an unglue server you can compile styles with**
+
 ## Update your local luya-env-dev repos
 
 To fetch the upstream for all forked modules from the `repos` folder run:
@@ -30,7 +32,7 @@ To fetch the upstream for all forked modules from the `repos` folder run:
 
 Make sure you push each module after update to get your remote fork even with the upstream.
 
-> Its highly recommend to leave the master branch of the modules untouched to ensure that rebasing works properly. Always create a new branch to work on it.
+> Its highly recommend to leave the master branch of the modules untouched to ensure that rebasing works properly. **Always create a new branch to work on it.**
 
 ## Changes, collaboration and contribution
 
