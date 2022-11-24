@@ -30,7 +30,7 @@ If you need to work on CMS or Admin modules, we recommend the above steps has be
 
 1. Edit the module files in the folder `repos/luya-module-...`
 2. Install deps from the module with `composer install` (inside the folder of that module, f.e `repos/luya-module-admin`) (this will install the unglue binary f.e)
-2. If you change js or css code run the unglue watch command **in the modules folder**: `./vendor/bin/unglue watch --server=localhost=localhost:3000`
+2. If you change js or css code run the unglue watch command **in the modules folder**: `./vendor/bin/unglue watch --server=localhost:3000`
 
 ## Update your local luya-env-dev repos
 
