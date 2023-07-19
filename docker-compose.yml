@@ -1,51 +1,32 @@
-version: '2'
+version: '3'
 services:
-  luya_composer:
+
+  luyaenvdev_composer:
     image: composer
     volumes:
       - ./:/app
-    command: composer install --ignore-platform-reqs 
+    command: composer install
 
-  luya_db:
+  luyaenvdev_db:
     image: mysql:5.7
     command:
       - --character-set-server=utf8
       - --collation-server=utf8_general_ci
     environment:
       MYSQL_ROOT_PASSWORD: luya
-      MYSQL_DATABASE: luya_env_dev
+      MYSQL_DATABASE: luya
       MYSQL_USER: luya
       MYSQL_PASSWORD: luya
-    ports:
-      - "3300:3306"
 
-  # Example Setup for postgreSQL
-  # luya_db:
-  #  image: postgres
-  #  environment:
-  #    POSTGRES_DB: luya_env_dev
-  #    POSTGRES_USER: luya
-  #    POSTGRES_PASSWORD: luya
-  #    POSTGRES_HOST_AUTH_METHOD: trust
-
-  luya_web:
-    image: luyadev/luya-docker:nginx-fpm-php74
+  luyaenvdev_web:
+    image: registry.gitlab.com/zephir.ch/foss/luya-docker:php82
     volumes:
-      - ./:/app
-    ports:
-      - "8080:80"
-      
-  unglue:
+      - ./localphp.ini:/etc/php82/conf.d/zzz_custom.ini
+      - ./:/var/www/html
+    healthcheck:
+      disable: true
+
+  luyaenvdev_unglue:
     image: unglue/server
     ports:
-      - "3000:3000"
-
-  luya_pma:
-    image: phpmyadmin/phpmyadmin
-    environment:
-      PMA_HOST: luya_db
-      MYSQL_USER: luya
-      MYSQL_PASSWORD: luya
-      MYSQL_ROOT_PASSWORD: luya
-    ports:
-      - 8001:80
+        - "3000:3000"
