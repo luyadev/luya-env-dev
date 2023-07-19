@@ -52,7 +52,7 @@ $config = new Config('testenv', dirname(__DIR__), [
 ]);
 
 $config->component('db', [
-    'dsn' => 'mysql:host=luya;dbname=luyaenvdev_db',
+    'dsn' => 'mysql:host=luyaenvdev_db;dbname=luya',
     'username' => 'luya',
     'password' => 'luya',
 ])->env(Config::ENV_LOCAL);
